@@ -35,26 +35,50 @@ $(document).ready(function(){
 });
 var counter=50;
 
-var drip_coffee = {
+var parameter_array = [{
+    "name":"Drip_coffee",
     "parameter_1":85,
     "parameter_2":13,
     "parameter_3":3,
     "parameter_4":80,
-}
-
-var Syphon = {
+},{
+    "name":"Syphon".
     "parameter_1":82,
     "parameter_2":15,
     "parameter_3":3.5,
     "parameter_4":50,
-}
+},{
+    "name":"Espresso".
+    "parameter_1":82,
+    "parameter_2":15,
+    "parameter_3":3.5,
+    "parameter_4":50,
+}]
+
+var iterator=0;
 
 function change_parameter(){
-    counter++;
+
+    if(iterator < parameter_array.length){
+        iterator++;
+    }else{
+        iterator=0;
+    }
+
+    $('$parameter_title').text(parameter_array[iterator]['name']);
     $('.parameter').waypoint(function(){
-        $('.chart2').data('easyPieChart').update(counter);
+        $('.chart2').data('easyPieChart').update(parameter_array[iterator]['parameter_1']);
     },{offset:'80%'});
-     console.log("pass");
+    $('.parameter').waypoint(function(){
+        $('.chart2').data('easyPieChart').update(parameter_array[iterator]['parameter_2']);
+    },{offset:'80%'});
+    $('.parameter').waypoint(function(){
+        $('.chart2').data('easyPieChart').update(parameter_array[iterator]['parameter_3']);
+    },{offset:'80%'});
+    $('.parameter').waypoint(function(){
+        $('.chart2').data('easyPieChart').update(parameter_array[iterator]['parameter_4']);
+    },{offset:'80%'});
+
     setTimeout('change_parameter()',1000);
 }
 
