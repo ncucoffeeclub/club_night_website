@@ -422,7 +422,7 @@ textarea.form-control {
  * Skills
 /* ---------------------------------------------- */
 
-.chart {
+.chart1,.chart2,.chart3,.chart4 {
     display: inline-block;
     height: 140px;
     margin: 50px 0;
@@ -430,7 +430,7 @@ textarea.form-control {
     text-align: center;
     width: 140px;
 }
-.chart canvas {
+.chart1 canvas,.chart2 canvas,.chart3 canvas,.chart4 canvas {
     left: 0;
     position: absolute;
     top: 0;
