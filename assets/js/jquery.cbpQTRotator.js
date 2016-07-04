@@ -71,15 +71,15 @@
 		_startRotator: function() {
 
 			if( this.support ) {
-				this._startProgress();
+				// this._startProgress();
 			}
 
 			setTimeout( $.proxy( function() {
 				if( this.support ) {
-					this._resetProgress();
+					// this._resetProgress();
 				}
 				this._next();
-				this._startRotator();
+				// this._startRotator();
 			}, this ), this.options.interval );
 
 		},
