@@ -67,16 +67,16 @@ function change_parameter(){
     // var title =document.getElementById('parameter_title');
     // title.innerHTML(parameter_array[iterator]['name']);
     $('.parameter').waypoint(function(){
-        $('.chart2').data('easyPieChart').update(parameter_array[iterator]['parameter_1']);
+        $('.chart1').data('easyPieChart').update(parameter_array[iterator].parameter_1);
     },{offset:'80%'});
     $('.parameter').waypoint(function(){
-        $('.chart2').data('easyPieChart').update(parameter_array[iterator]['parameter_2']);
+        $('.chart2').data('easyPieChart').update(parameter_array[iterator].parameter_2);
     },{offset:'80%'});
     $('.parameter').waypoint(function(){
-        $('.chart2').data('easyPieChart').update(parameter_array[iterator]['parameter_3']);
+        $('.chart3').data('easyPieChart').update(parameter_array[iterator].parameter_3);
     },{offset:'80%'});
     $('.parameter').waypoint(function(){
-        $('.chart2').data('easyPieChart').update(parameter_array[iterator]['parameter_4']);
+        $('.chart4').data('easyPieChart').update(parameter_array[iterator].parameter_4);
     },{offset:'80%'});
 
     setTimeout('change_parameter()',1000);
