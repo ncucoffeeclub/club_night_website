@@ -970,6 +970,7 @@ figure.effect-bubba:hover p {
 .cbp-qtrotator .cbp-qtcontent img {
 	/*float: center;*/
 	/*margin-left: 3em;*/
+	width: auto;
 	max-width: 600px;
 	max-height: 400px;
 }
