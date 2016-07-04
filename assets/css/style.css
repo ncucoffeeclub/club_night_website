@@ -270,7 +270,8 @@ textarea.form-control {
 
 .pfblock-header-left .pfblock-line {
 	width: inherit;
-	margin: 20px 0;
+	text-align: left;
+	margin: 10px 0;
 }
 
 .pfblock-title{
