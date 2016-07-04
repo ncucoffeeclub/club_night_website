@@ -971,8 +971,8 @@ figure.effect-bubba:hover p {
 	/*float: center;*/
 	/*margin-left: 3em;*/
 	/*width: auto;*/
-	/*max-width: auto;*/
-	max-height: auto;
+	max-width: 540px;
+	max-height: 340px;
 	/*max-height: 400px;*/
 }
 
