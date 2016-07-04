@@ -51,7 +51,7 @@
         /* ---------------------------------------------- */    
         //var color = $('#home').css('backgroundColor');
 
-        $('.skills').waypoint(function(){
+        $('.parameter').waypoint(function(){
             $('.chart').each(function(){
             $(this).easyPieChart({
                     size:140,
@@ -88,6 +88,7 @@
 				*/
 
 				$( '#cbp-qtrotator' ).cbpQTRotator();
+				$( '#cbp-qtrotator-2' ).cbpQTRotator();
 			} );
 		
         
