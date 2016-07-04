@@ -94,16 +94,31 @@ function change_parameter(){
     $('.parameter').waypoint(function(){
         $('.chart1').data('easyPieChart').update(parameter_array[iterator].parameter_1);
     },{offset:'80%'});
+
+    var title =document.getElementById('parameter-1_text');
+    title.innerHTML = parameter_array[iterator].name;
+
     $('.parameter').waypoint(function(){
         $('.chart2').data('easyPieChart').update((100*parameter_array[iterator].parameter_2/20));
     },{offset:'80%'});
+
+    var title =document.getElementById('parameter-2_text');
+    title.innerHTML = parameter_array[iterator].parameter_2;
+
     $('.parameter').waypoint(function(){
         $('.chart3').data('easyPieChart').update((100*parameter_array[iterator].parameter_3/5));
     },{offset:'80%'});
+
+    var title =document.getElementById('parameter-3_text');
+    title.innerHTML = parameter_array[iterator].parameter_3;
+
     $('.parameter').waypoint(function(){
         $('.chart4').data('easyPieChart').update((100*parameter_array[iterator].parameter_4/120));
     },{offset:'80%'});
 
+    var title =document.getElementById('parameter-4_text');
+    title.innerHTML = parameter_array[iterator].parameter_4;
+    
     setTimeout('change_parameter()',10000);
 }
 
