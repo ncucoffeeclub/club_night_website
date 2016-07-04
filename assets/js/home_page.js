@@ -52,7 +52,7 @@ var parameter_array = [{
     "parameter_1":82,
     "parameter_2":15,
     "parameter_3":3.5,
-    "parameter_4":50,
+    "parameter_4":23,
 }]
 
 var iterator=0;
@@ -95,16 +95,16 @@ function change_parameter(){
         $('.chart1').data('easyPieChart').update(parameter_array[iterator].parameter_1);
     },{offset:'80%'});
     $('.parameter').waypoint(function(){
-        $('.chart2').data('easyPieChart').update(parameter_array[iterator].parameter_2);
+        $('.chart2').data('easyPieChart').update((100*parameter_array[iterator].parameter_2/20));
     },{offset:'80%'});
     $('.parameter').waypoint(function(){
-        $('.chart3').data('easyPieChart').update(parameter_array[iterator].parameter_3);
+        $('.chart3').data('easyPieChart').update((100*parameter_array[iterator].parameter_3/5));
     },{offset:'80%'});
     $('.parameter').waypoint(function(){
-        $('.chart4').data('easyPieChart').update(parameter_array[iterator].parameter_4);
+        $('.chart4').data('easyPieChart').update((100*parameter_array[iterator].parameter_4/120));
     },{offset:'80%'});
 
-    setTimeout('change_parameter()',1000);
+    setTimeout('change_parameter()',10000);
 }
 
 
