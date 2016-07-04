@@ -35,11 +35,24 @@ $(document).ready(function(){
 });
 var counter=50;
 
+var drip_coffee = {
+    "parameter_1":85,
+    "parameter_2":13,
+    "parameter_3":3,
+    "parameter_4":80,
+}
+
+var Syphon = {
+    "parameter_1":82,
+    "parameter_2":15,
+    "parameter_3":3.5,
+    "parameter_4":50,
+}
+
 function change_parameter(){
     counter++;
-    $('#parameter-1').text(50);
-     $('.parameter').waypoint(function(){
-        $('.chart').data('easyPieChart').update(counter);
+    $('.parameter').waypoint(function(){
+        $('.chart1').data('easyPieChart').update(counter);
     },{offset:'80%'});
      console.log("pass");
     setTimeout('change_parameter()',1000);

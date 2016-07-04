@@ -52,7 +52,7 @@
         //var color = $('#home').css('backgroundColor');
 
         $('.parameter').waypoint(function(){
-            $('.chart').each(function(){
+            $('.chart1').each(function(){
             $(this).easyPieChart({
                     size:140,
                     animate: 2000,
