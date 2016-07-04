@@ -76,7 +76,7 @@
 
 			setTimeout( $.proxy( function() {
 				if( this.support ) {
-					// this._resetProgress();
+					this._resetProgress();
 				}
 				this._next();
 				// this._startRotator();
