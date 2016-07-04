@@ -269,7 +269,7 @@ textarea.form-control {
 }
 
 .pfblock-header-left .pfblock-line {
-	width: auto;
+	width: inherit;
 	margin: 30px 0;
 }
 
@@ -285,7 +285,7 @@ textarea.form-control {
 
 .pfblock-line {
 	background: rgba(135, 135, 135, 0.5);
-	width: 100px;
+	width: auto;
 	height: 1px;
 	margin: 30px auto;
 }
