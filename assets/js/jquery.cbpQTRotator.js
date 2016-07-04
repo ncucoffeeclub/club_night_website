@@ -58,14 +58,14 @@
 			// support for CSS Transitions
 			this.support = Modernizr.csstransitions;
 			// add the progress bar
-			if( this.support ) {
-				this.$progress = $( '<span class="cbp-qtprogress"></span>' ).appendTo( this.$el );
-			}
+			// if( this.support ) {
+			// 	this.$progress = $( '<span class="cbp-qtprogress"></span>' ).appendTo( this.$el );
+			// }
 
 		},
 		_setTransition : function() {
 			setTimeout( $.proxy( function() {
-				this.$items.css( 'transition', 'opacity ' + this.options.speed + 'ms ' + this.options.easing );
+				// this.$items.css( 'transition', 'opacity ' + this.options.speed + 'ms ' + this.options.easing );
 			}, this ), 25 );
 		},
 		_startRotator: function() {
@@ -97,12 +97,12 @@
 		_startProgress : function() {
 			
 			setTimeout( $.proxy( function() {
-				this.$progress.css( { transition : 'width ' + this.options.interval + 'ms linear', width : '100%' } );
+				// this.$progress.css( { transition : 'width ' + this.options.interval + 'ms linear', width : '100%' } );
 			}, this ), 25 );
 
 		},
 		_resetProgress : function() {
-			this.$progress.css( { transition : 'none', width : '0%' } );
+			// this.$progress.css( { transition : 'none', width : '0%' } );
 		},
 		destroy : function() {
 			if( this.support ) {
