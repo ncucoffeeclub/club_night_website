@@ -956,6 +956,7 @@ figure.effect-bubba:hover p {
 .cbp-qtrotator .cbp-qtcontent img {
 	/*float: center;*/
 	/*margin-left: 3em;*/
+	width: 100%;
 }
 
 /* Example for media query */
