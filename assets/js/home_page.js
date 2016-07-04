@@ -42,7 +42,7 @@ var parameter_array = [{
     "parameter_3":3,
     "parameter_4":80,
 },{
-    "name":"Syphon".
+    "name":"Syphon",
     "parameter_1":82,
     "parameter_2":15,
     "parameter_3":3.5,
