@@ -448,6 +448,19 @@ textarea.form-control {
     margin-left: 0.1em;
 }
 
+.parameter {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 140px;
+    z-index: 2;
+}
+.parameter:after {
+    font-size: 50%;
+    margin-left: 0.1em;
+}
+
+
 /* ---------------------------------------------- /*
  * Contact
 /* ---------------------------------------------- */

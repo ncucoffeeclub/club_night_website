@@ -31,8 +31,26 @@ function startTime(){
 }
 
 $(document).ready(function(){
-    
-    
-    
     setTimeout('startTime()',500);
+});
+
+function change_parameter(){
+     $('.parameter').waypoint(function(){
+        $('.chart').each(function(){
+            $(this).easyPieChart({
+                    size:140,
+                    animate: 2000,
+                    lineCap:'butt',
+                    scaleColor: false,
+                    barColor: '#FF5252',
+                    trackColor: 'transparent',
+                    lineWidth: 10
+                });
+            });
+    },{offset:'80%'});
+}
+
+
+$(document).ready(function(){
+    setTimeout('startTime()',1000);
 });

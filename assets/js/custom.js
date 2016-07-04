@@ -88,7 +88,6 @@
 				*/
 
 				$( '#cbp-qtrotator' ).cbpQTRotator();
-				$( '#cbp-qtrotator-2' ).cbpQTRotator();
 			} );
 		
         
