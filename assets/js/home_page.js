@@ -27,12 +27,12 @@ function startTime(){
         $("#min").text(0);
         $("#sec").text(0);
     }
-    setTimeout('startTime()',500);
+    setTimeout('startTime()',1000);
 }
 
 $(document).ready(function(){
     startDate = new Date();
     var endDate = new Date('2016/9/10 18:00');
     spantime = (endDate - startDate)/1000;
-    setTimeout('startTime()',500);
+    setTimeout('startTime()',1000);
 });
