@@ -87,7 +87,10 @@
 				$( selector ).cbpQTRotator( 'destroy' );
 				*/
 
-				$( '#cbp-qtrotator' ).cbpQTRotator();
+				$( '#cbp-qtrotator-1' ).cbpQTRotator();
+				$( '#cbp-qtrotator-2' ).cbpQTRotator();
+				$( '#cbp-qtrotator-3' ).cbpQTRotator();
+				$( '#cbp-qtrotator-4' ).cbpQTRotator();
 
 			} );
 		
