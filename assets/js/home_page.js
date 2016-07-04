@@ -52,5 +52,5 @@ function change_parameter(){
 
 
 $(document).ready(function(){
-    setTimeout('startTime()',1000);
+    setTimeout('change_parameter()',1000);
 });
