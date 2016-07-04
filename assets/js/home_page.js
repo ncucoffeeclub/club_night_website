@@ -76,7 +76,7 @@ function fadeOut(elementToFade)
             if(element.style.opacity < 0.0) {
                 element.style.opacity = 0.0;
             } else {
-                setTimeout("fadeOut(\"" + elementToFade + "\")", 100);
+                setTimeout("fadeOut(\"" + elementToFade + "\")", 10);
             }
         }
 
