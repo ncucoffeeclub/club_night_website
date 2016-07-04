@@ -35,6 +35,7 @@ $(document).ready(function(){
 });
 
 function change_parameter(){
+    $('#parameter-1').text(50);
      $('.parameter').waypoint(function(){
         $('.chart').each(function(){
             $(this).easyPieChart({
