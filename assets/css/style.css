@@ -619,7 +619,7 @@ textarea.form-control {
 	border: 2px solid #fff;
 	/*border-radius: 50%;*/
 	height: 50px;
-	width: 50px;
+	width: auto;
 	margin-left: -15px;
 	display: block;
 	z-index: 10;
