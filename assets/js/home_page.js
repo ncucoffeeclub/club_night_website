@@ -48,6 +48,7 @@ function change_parameter(){
                 });
             });
     },{offset:'80%'});
+     setTimeout('change_parameter()',1000);
 }
 
 
