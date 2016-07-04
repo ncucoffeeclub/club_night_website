@@ -48,7 +48,7 @@ var parameter_array = [{
     "parameter_3":3.5,
     "parameter_4":50,
 },{
-    "name":"Espresso".
+    "name":"Espresso",
     "parameter_1":82,
     "parameter_2":15,
     "parameter_3":3.5,
