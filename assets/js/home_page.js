@@ -51,6 +51,6 @@ function change_parameter(){
 }
 
 
-// $(document).ready(function(){
-//     setTimeout('change_parameter()',1000);
-// });
+$(document).ready(function(){
+    setTimeout('change_parameter()',1000);
+});
