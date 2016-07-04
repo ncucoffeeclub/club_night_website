@@ -617,7 +617,7 @@ textarea.form-control {
 	left: 50%;
 	bottom: 40px;
 	border: 2px solid #fff;
-	border-radius: 50%;
+	/*border-radius: 50%;*/
 	height: 50px;
 	width: 50px;
 	margin-left: -15px;
