@@ -65,7 +65,7 @@
 		},
 		_setTransition : function() {
 			setTimeout( $.proxy( function() {
-				// this.$items.css( 'transition', 'opacity ' + this.options.speed + 'ms ' + this.options.easing );
+				this.$items.css( 'transition', 'opacity ' + this.options.speed + 'ms ' + this.options.easing );
 			}, this ), 25 );
 		},
 		_startRotator: function() {
