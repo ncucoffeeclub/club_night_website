@@ -59,7 +59,7 @@ var iterator=0;
 
 function change_parameter(){
 
-    if(iterator < parameter_array.length){
+    if(iterator < parameter_array.length-1){
         iterator++;
     }else{
         iterator=0;
