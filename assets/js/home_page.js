@@ -5,10 +5,10 @@ if (i<10)
   {i="0" + i}
   return i;
 }
-var spantime;
-var startDate;
 function startTime(){
-    spantime --;
+    var endDate = new Date('2016/9/10 18:00');
+    var startDate = new Date();
+    var spantime = (endDate - startDate)/1000;
     var d = Math.floor(spantime / (24 * 3600));
     var h = Math.floor((spantime % (24*3600))/3600);
     var m = Math.floor((spantime % 3600)/(60));
@@ -27,12 +27,12 @@ function startTime(){
         $("#min").text(0);
         $("#sec").text(0);
     }
-    setTimeout('startTime()',1000);
+    setTimeout('startTime()',500);
 }
 
 $(document).ready(function(){
-    startDate = new Date();
-    var endDate = new Date('2016/9/10 18:00');
-    spantime = (endDate - startDate)/1000;
-    setTimeout('startTime()',1000);
+    
+    
+    
+    setTimeout('startTime()',500);
 });
