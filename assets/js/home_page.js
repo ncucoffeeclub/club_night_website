@@ -33,21 +33,13 @@ function startTime(){
 $(document).ready(function(){
     setTimeout('startTime()',500);
 });
+var counter=50;
 
 function change_parameter(){
+    counter++;
     $('#parameter-1').text(50);
      $('.parameter').waypoint(function(){
-        $('.chart').each(function(){
-            $(this).easyPieChart({
-                    size:140,
-                    animate: 2000,
-                    lineCap:'butt',
-                    scaleColor: false,
-                    barColor: '#FF5252',
-                    trackColor: 'transparent',
-                    lineWidth: 10
-                });
-            });
+        $('.chart').data('easyPieChart').update(counter);
     },{offset:'80%'});
      console.log("pass");
     setTimeout('change_parameter()',1000);
