@@ -29,11 +29,11 @@ function startTime(){
     }
 }
 
-function set_timer_counter(){
+$(document).ready(function(){
     startDate = new Date();
     var endDate = new Date('2016/7/4 18:00');
     spantime = (endDate - startDate)/1000;
     $(document).ready(function () {
         setTimeout('startTime()',500)
     });
-}
+});
