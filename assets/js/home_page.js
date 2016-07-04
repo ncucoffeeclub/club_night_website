@@ -65,7 +65,7 @@ function change_parameter(){
         iterator=0;
     }
     var title =document.getElementById('parameter_title');
-    title.css( 'transition', 'opacity ' + 700 + 'ms ' + ease );
+    title.css( 'transition', 'opacity ' + 700 + 'ms ' + 'ease' );
     title.innerHTML = parameter_array[iterator].name;
     $('.parameter').waypoint(function(){
         $('.chart1').data('easyPieChart').update(parameter_array[iterator].parameter_1);
