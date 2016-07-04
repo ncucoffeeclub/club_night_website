@@ -52,7 +52,7 @@ var Syphon = {
 function change_parameter(){
     counter++;
     $('.parameter').waypoint(function(){
-        $('.chart1').data('easyPieChart').update(counter);
+        $('.chart2').data('easyPieChart').update(counter);
     },{offset:'80%'});
      console.log("pass");
     setTimeout('change_parameter()',1000);
