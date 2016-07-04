@@ -104,7 +104,7 @@ function change_parameter(){
         $('.chart4').data('easyPieChart').update(parameter_array[iterator].parameter_4);
     },{offset:'80%'});
 
-    setTimeout('change_parameter()',10000);
+    setTimeout('change_parameter()',1000);
 }
 
 
