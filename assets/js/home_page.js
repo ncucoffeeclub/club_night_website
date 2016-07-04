@@ -64,8 +64,8 @@ function change_parameter(){
     }else{
         iterator=0;
     }
-    var title =document.getElementById('parameter_title');
-    title.innerHTML(parameter_array[iterator]['name']);
+    // var title =document.getElementById('parameter_title');
+    // title.innerHTML(parameter_array[iterator]['name']);
     $('.parameter').waypoint(function(){
         $('.chart2').data('easyPieChart').update(parameter_array[iterator]['parameter_1']);
     },{offset:'80%'});
