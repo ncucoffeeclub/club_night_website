@@ -57,6 +57,29 @@ var parameter_array = [{
 
 var iterator=0;
 
+ function fadeIn(elementToFade){
+            var element = document.getElementById(elementToFade);
+
+            element.style.opacity += 0.1;
+            if(element.style.opacity > 1.0) {
+                element.style.opacity = 1.0;
+            } else {
+                setTimeout("fadeIn(\"" + elementToFade + "\")", 100);
+            }
+        }
+
+function fadeOut(elementToFade)
+        {
+            var element = document.getElementById(elementToFade);
+
+            element.style.opacity -= 0.1;
+            if(element.style.opacity < 0.0) {
+                element.style.opacity = 0.0;
+            } else {
+                setTimeout("fadeOut(\"" + elementToFade + "\")", 100);
+            }
+        }
+
 function change_parameter(){
 
     if(iterator < parameter_array.length-1){
@@ -65,8 +88,9 @@ function change_parameter(){
         iterator=0;
     }
     var title =document.getElementById('parameter_title');
-    title.css( 'transition', 'opacity ' + 700 + 'ms ' + 'ease' );
+    fadeOut(title);
     title.innerHTML = parameter_array[iterator].name;
+    fadein(title);
     $('.parameter').waypoint(function(){
         $('.chart1').data('easyPieChart').update(parameter_array[iterator].parameter_1);
     },{offset:'80%'});
