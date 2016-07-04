@@ -18,7 +18,7 @@ function startTime(){
     s=checkTime(s);
     if(spantime>0){
         $('#day').text(d);
-        $("#hour").text(h+(d*24));
+        $("#hour").text(h);
         $("#min").text(m);
         $("#sec").text(s);
     }else{ // 避免倒數變成負的
@@ -27,6 +27,7 @@ function startTime(){
         $("#min").text(0);
         $("#sec").text(0);
     }
+    setTimeout('startTime()',500);
 }
 
 $(document).ready(function(){
