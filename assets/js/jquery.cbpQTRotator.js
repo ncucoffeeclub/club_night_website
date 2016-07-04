@@ -80,6 +80,7 @@
 				}
 				this._next();
 				this._startRotator();
+				console.log("rotator");
 			}, this ), this.options.interval );
 
 		},
