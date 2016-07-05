@@ -443,7 +443,6 @@ textarea.form-control {
     z-index: 2;
 }
 .css_parmeter:after {
-    content: "%";
     font-size: 50%;
     margin-left: 0.1em;
 }
