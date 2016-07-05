@@ -89,6 +89,11 @@ h3 {
 	margin: 0 0 5px;
 }
 
+h3::first-letter {
+  font-weight: bold;
+  color: red;
+}
+
 h4 {
 	font-size: 12px;
 	letter-spacing: 1px;
