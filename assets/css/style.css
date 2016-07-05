@@ -721,6 +721,14 @@ textarea.form-control {
 
 }
 
+@media (max-width: 480px) {
+
+	.pie{
+		display: inline;
+	}
+
+}
+
 
 /*--------------------------------*/
 /***** Portfolio Common style *****/
