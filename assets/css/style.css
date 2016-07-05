@@ -761,6 +761,8 @@ textarea.form-control {
 	position: relative;
 	display: block;
 	min-height: auto;
+	max-height: 225px;
+	text-align: center;
 	max-width: 100%;
 	opacity: 0.8;
 }
