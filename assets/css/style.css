@@ -901,8 +901,9 @@ figure.effect-bubba:hover p {
 .cbp-qtrotator {
 	position: relative;
 	/*margin: 3em auto 0em auto;*/
-	max-width: 600px;
+	/*max-width: 600px;*/
 	height: 400px;
+	text-align: center;
 	width: auto;
 }
 
