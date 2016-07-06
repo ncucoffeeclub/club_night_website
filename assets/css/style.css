@@ -837,6 +837,13 @@ figure.effect-bubba:hover img {
 	opacity: 0.4;
 }
 
+@media (min-width: 768px){
+
+	figure.effect-bubba img {
+		height: 200px;
+	}
+}
+
 figure.effect-bubba figcaption::before,
 figure.effect-bubba figcaption::after {
 	position: absolute;
