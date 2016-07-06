@@ -881,7 +881,8 @@ figure.effect-bubba p {
 	-webkit-transform: translate3d(0,20px,0);
 	transform: translate3d(0,20px,0);
 }
-@media (min-width: 900px) {
+
+@media (min-width: 767px) {
 	figure.effect-bubba:hover figcaption::before,
 	figure.effect-bubba:hover figcaption::after {
 		opacity: 1;
@@ -896,6 +897,22 @@ figure.effect-bubba p {
 		transform: translate3d(0,0,0);
 	}
 }
+
+@media (max-width: 767px){
+	figure.effect-bubba figcaption{
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+
+	figure.effect-bubba h2,
+	figure.effect-bubb p {
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+}
+
 
 /*-----------------------*/
 /***** Quote Rotator *****/
