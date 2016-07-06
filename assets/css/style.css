@@ -899,17 +899,18 @@ figure.effect-bubba p {
 }
 
 @media (max-width: 767px){
-	figure.effect-bubba figcaption{
+	figure.effect-bubba:focus figcaption::before,
+	figure.effect-bubba:focus figcaption::after {
 		opacity: 1;
 		-webkit-transform: scale(1);
 		transform: scale(1);
 	}
 
-	figure.effect-bubba h2,
-	figure.effect-bubb p {
+	figure.effect-bubba:focus h2,
+	figure.effect-bubba:focus p {
 		opacity: 1;
-		-webkit-transform: translate3d(0,0,0);
-		transform: translate3d(0,0,0);
+		-webkit-transform: scale(1);
+		transform: scale(1);
 	}
 }
 
