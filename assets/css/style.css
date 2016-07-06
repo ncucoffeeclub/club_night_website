@@ -1029,7 +1029,5 @@ background: linear-gradient(to right, #329efc 0%,#2a2a2b 52%); /* W3C, IE10+, FF
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#329efc', endColorstr='#2a2a2b',GradientType=1 ); /* IE6-9 */
 height: 30px;
 width: auto;
-position: absolute;
-z-index: 1000;
 }
 
