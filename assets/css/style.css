@@ -1029,6 +1029,6 @@ figure.effect-bubba p {
 	background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 56%,rgba(134,226,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#86e2f9',GradientType=0 ); /* IE6-9 */
 	width: auto;
-	height: 30px
+	height: 30px;
 }
 
