@@ -303,7 +303,6 @@ textarea.form-control {
     text-align: center;
 }
 .calltoaction {
-    background: url(../images/item-3.jpg);
 	background-color: #222;
 	background-repeat: no-repeat;
 	background-position: 0 0;
@@ -1022,15 +1021,15 @@ figure.effect-bubba p {
 /*---------------------------*/
 
 .activity-tag {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+56,86e2f9+100 */
-	background: rgb(30,87,153); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(41,137,216,1) 56%, rgba(134,226,249,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 56%,rgba(134,226,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 56%,rgba(134,226,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#86e2f9',GradientType=0 ); /* IE6-9 */
-	width: auto;
-	height: 30px;
-	position: absolute;
-	z-index: 1000;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#329efc+0,000222+63 */
+background: #329efc; /* Old browsers */
+background: -moz-linear-gradient(left, #329efc 0%, #000222 63%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #329efc 0%,#000222 63%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #329efc 0%,#000222 63%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#329efc', endColorstr='#000222',GradientType=1 ); /* IE6-9 */
+height: 30px;
+width: auto;
+position: absolute;
+z-index: 1000;
 }
 
