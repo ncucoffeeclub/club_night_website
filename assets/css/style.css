@@ -996,7 +996,7 @@ figure.effect-bubba p {
 .cbp-qtrotator .cbp-qtcontent img {
 	float: center;
 	/*margin-left: 3em;*/
-	/*width: auto;*/
+	width: auto;
 	max-width: auto;
 	max-height: auto;
 	vertical-align: middle;
