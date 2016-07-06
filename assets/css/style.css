@@ -1030,5 +1030,7 @@ figure.effect-bubba p {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#86e2f9',GradientType=0 ); /* IE6-9 */
 	width: auto;
 	height: 30px;
+	position: absolute;
+	z-index: 1000;
 }
 
