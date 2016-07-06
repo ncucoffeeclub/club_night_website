@@ -50,7 +50,7 @@ var parameter_array = [{
 },{
     "name":"Espresso",
     "parameter_1":82,
-    "parameter_2":12,
+    "parameter_2":2,
     "parameter_3":1,
     "parameter_4":23,
 }]
