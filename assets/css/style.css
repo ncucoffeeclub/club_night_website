@@ -303,7 +303,7 @@ textarea.form-control {
     text-align: center;
 }
 .calltoaction {
-	background-color: #222;
+	background-color: #2a2a2b;
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	-webkit-background-size: cover;
@@ -1023,10 +1023,10 @@ figure.effect-bubba p {
 .activity-tag {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#329efc+0,000222+63 */
 background: #329efc; /* Old browsers */
-background: -moz-linear-gradient(left, #329efc 0%, #000222 63%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #329efc 0%,#000222 63%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #329efc 0%,#000222 63%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#329efc', endColorstr='#000222',GradientType=1 ); /* IE6-9 */
+background: -moz-linear-gradient(left, #329efc 0%, #2a2a2b 52%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #329efc 0%,#2a2a2b 52%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #329efc 0%,#2a2a2b 52%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#329efc', endColorstr='#2a2a2b',GradientType=1 ); /* IE6-9 */
 height: 30px;
 width: auto;
 position: absolute;
