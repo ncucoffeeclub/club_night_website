@@ -994,11 +994,11 @@ figure.effect-bubba p {
 }
 
 .cbp-qtrotator .cbp-qtcontent img {
-	/*float: center;*/
+	float: center;
 	/*margin-left: 3em;*/
 	/*width: auto;*/
-	max-width: 540px;
-	max-height: 340px;
+	max-width: auto;
+	max-height: auto;
 	vertical-align: middle;
 	/*max-height: 400px;*/
 }
