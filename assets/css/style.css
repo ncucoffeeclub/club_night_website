@@ -761,7 +761,7 @@ textarea.form-control {
 	position: relative;
 	display: block;
 	min-height: auto;
-	max-height: 225px;
+	max-height: auto;
 	text-align: center;
 	max-width: 100%;
 	opacity: 0.8;
@@ -837,13 +837,6 @@ figure.effect-bubba:hover img {
 	opacity: 0.4;
 }
 
-@media (min-width: 768px){
-
-	figure.effect-bubba img {
-		height: 200px;
-	}
-}
-
 figure.effect-bubba figcaption::before,
 figure.effect-bubba figcaption::after {
 	position: absolute;
@@ -888,19 +881,20 @@ figure.effect-bubba p {
 	-webkit-transform: translate3d(0,20px,0);
 	transform: translate3d(0,20px,0);
 }
+@media (min-width: 900px) {
+	figure.effect-bubba:hover figcaption::before,
+	figure.effect-bubba:hover figcaption::after {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
 
-figure.effect-bubba:hover figcaption::before,
-figure.effect-bubba:hover figcaption::after {
-	opacity: 1;
-	-webkit-transform: scale(1);
-	transform: scale(1);
-}
-
-figure.effect-bubba:hover h2,
-figure.effect-bubba:hover p {
-	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
+	figure.effect-bubba:hover h2,
+	figure.effect-bubba:hover p {
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
 }
 
 /*-----------------------*/
