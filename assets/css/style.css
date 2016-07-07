@@ -1,7 +1,9 @@
 @import url(http://fonts.useso.com/css?family=Raleway:400,300,500,700,800);
 @import url(http://fonts.useso.com/css?family=Lobster);
 
-
+html {
+	-webkit-text-size-adjust:100%;
+}
 
 body {
 	font: 300 14px/1.8 'Raleway', sans-serif;
