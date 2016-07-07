@@ -45,7 +45,7 @@
 }
 
 .unslider-arrow{
-    background-image: url('assets/images/arrow.png');
+    background-image: url(../assets/images/arrow.png);
     width: 32px;
     height: 32px;
     top: 50%;
