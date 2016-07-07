@@ -44,8 +44,8 @@
     right: 20px;
 }
 
-.unslider-arrow{
-    background: url(../images/arrow.png);
+.unslider-arrow {
+    background-Image: url(../images/arrow.png);
     width: 32px;
     height: 32px;
     top: 50%;
@@ -53,10 +53,10 @@
     left: auto;
     margin-top: -16px;
     overflow: hidden;
-    /*background: rgba(255,255,255,.2) no-repeat 50% 50%;*/
-    background-size: 7px 11px;
+    background-repeat: no-repeat;
+    background-size: 20px;
     border-radius: 32px;
     text-indent: -999em;
     opacity: .6;
     transition: opacity .2s;
-  }
+}
