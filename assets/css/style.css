@@ -3,7 +3,7 @@
 
 body {
 	font: 300 14px/1.8 'Raleway', sans-serif;
-	-webkit-text-size-adjust: none;
+	-webkit-text-size-adjust: 100%;
 	color: #666;
 	overflow-x: hidden;
 }
