@@ -35,7 +35,9 @@
 
     <script>
 		jQuery(document).ready(function($) {
-			$('.my-slider').unslider();
+			$('.automatic-slider').unslider({
+				autoplay: true
+			});
 		});
 	</script>
 
@@ -154,7 +156,7 @@
 			</div><!-- .row -->
 			<div class="row">
 				<div class="col-md-12 col-lg-12">
-					<div class="my-slider">
+					<div class="automatic-slider">
 						<ul>
 							<li>My slide</li>
 							<li>Another slide</li>
