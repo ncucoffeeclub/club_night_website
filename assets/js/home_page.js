@@ -91,35 +91,41 @@ function change_parameter(){
     // fadeOut('parameter_title');
     title.innerHTML = parameter_array[iterator].name;
     // fadeIn('parameter_title');
-    $('.parameter').waypoint(function(){
-        $('.chart1').data('easyPieChart').update(parameter_array[iterator].parameter_1);
-    },{offset:'80%'});
+    try{
+        $('.parameter').waypoint(function(){
+            $('.chart1').data('easyPieChart').update(parameter_array[iterator].parameter_1);
+        },{offset:'80%'});
 
-    var parameter_1 =document.getElementById('parameter-1_text');
-    parameter_1.innerHTML = parameter_array[iterator].parameter_1;
+        var parameter_1 =document.getElementById('parameter-1_text');
+        parameter_1.innerHTML = parameter_array[iterator].parameter_1;
 
-    $('.parameter').waypoint(function(){
-        $('.chart2').data('easyPieChart').update((100*parameter_array[iterator].parameter_2/20));
-    },{offset:'80%'});
+        $('.parameter').waypoint(function(){
+            $('.chart2').data('easyPieChart').update((100*parameter_array[iterator].parameter_2/20));
+        },{offset:'80%'});
 
-    var  parameter_2 =document.getElementById('parameter-2_text');
-     parameter_2.innerHTML = parameter_array[iterator].parameter_2;
+        var  parameter_2 =document.getElementById('parameter-2_text');
+         parameter_2.innerHTML = parameter_array[iterator].parameter_2;
 
-    $('.parameter').waypoint(function(){
-        $('.chart3').data('easyPieChart').update((100*parameter_array[iterator].parameter_3/5));
-    },{offset:'80%'});
+        $('.parameter').waypoint(function(){
+            $('.chart3').data('easyPieChart').update((100*parameter_array[iterator].parameter_3/5));
+        },{offset:'80%'});
 
-    var  parameter_3 =document.getElementById('parameter-3_text');
-     parameter_3.innerHTML = parameter_array[iterator].parameter_3;
+        var  parameter_3 =document.getElementById('parameter-3_text');
+         parameter_3.innerHTML = parameter_array[iterator].parameter_3;
 
-    $('.parameter').waypoint(function(){
-        $('.chart4').data('easyPieChart').update((100*parameter_array[iterator].parameter_4/120));
-    },{offset:'80%'});
+        $('.parameter').waypoint(function(){
+            $('.chart4').data('easyPieChart').update((100*parameter_array[iterator].parameter_4/120));
+        },{offset:'80%'});
 
-    var  parameter_4 =document.getElementById('parameter-4_text');
-     parameter_4.innerHTML = parameter_array[iterator].parameter_4;
+        var  parameter_4 =document.getElementById('parameter-4_text');
+         parameter_4.innerHTML = parameter_array[iterator].parameter_4;
+
+        setTimeout('change_parameter()',10000);
+     }catch(err){
+        setTimeout('change_parameter()',3000);
+     }
     
-    setTimeout('change_parameter()',10000);
+    
 }
 
 
