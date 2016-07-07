@@ -68,8 +68,10 @@
 			//  Either set true/false, or an object with the HTML
 			//  elements for each arrow like below:
 			arrows: {
-				prev: '<a class="' + self._ + '-arrow prev">Prev</a>',
-				next: '<a class="' + self._ + '-arrow next">Next</a>'
+				//  Unslider default behaviour
+				prev: '<a class="unslider-arrow prev">Previous slide</a>',
+				next: '<a class="unslider-arrow next">Next slide</a>',
+
 			},
 
 			//  How should Unslider animate?
