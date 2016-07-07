@@ -41,7 +41,7 @@
 
 .unslider-arrow.next {
     left: auto;
-    right: 20px;
+    right: -20px;
 }
 
 .unslider-arrow {
