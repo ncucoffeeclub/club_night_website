@@ -36,7 +36,7 @@ $(document).ready(function(){
 var counter=50;
 
 var parameter_array = [{
-    "name":"Drip_coffee",
+    "name":"Drip coffee",
     "parameter_1":85,
     "parameter_2":13,
     "parameter_3":3,
