@@ -44,6 +44,10 @@
     right: -20px;
 }
 
+.unslider {
+    margin: 20px;
+}
+
 .unslider-arrow {
     background-image: url(../images/arrow.png);
     width: 32px;
