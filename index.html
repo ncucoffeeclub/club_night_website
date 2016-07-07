@@ -13,7 +13,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
 	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
+	<link href="assets/css/slider.css" rel="stylesheet" >
 	<link href="assets/css/animate.css" rel="stylesheet">
+
     
 	<!-- Custom styles CSS -->
 	<link href="assets/css/style.css" rel="stylesheet" media="screen">
@@ -39,6 +41,26 @@
 	     js.src = "//connect.facebook.net/en_US/sdk.js";
 	     fjs.parentNode.insertBefore(js, fjs);
 	   }(document, 'script', 'facebook-jssdk'));
+
+	  $(window).load(function(){
+		  $('.slider')._TMS({
+			show:0,
+			pauseOnHover:false,
+			prevBu:'.prev',
+			nextBu:'.next',
+			playBu:false,
+			duration:800,
+			preset:'fade',
+			easing:'easeOutQuad', 
+			pagination:true,//'.pagination',true,'<ul></ul>'
+			pagNums:false,
+			slideshow:8000,
+			numStatus:false,
+			banners:'fade',
+			waitBannerAnimation:false,
+			progressBar:false
+		  })  
+      });
 	</script>
 
 	<!-- Preloader -->
@@ -133,6 +155,26 @@
 						正在籌備中~
 					</div>
 				<div class="activity-tag">
+					<div class="slider-relative">
+				        <div class="slider-block">
+				            <div class="slider">
+				                <ul class="items">
+				                    <li><img src="images/slider-1.jpg" alt="">
+				                        <div class="banner">Our Customers are Our Priority</div>
+				                    </li>
+				                    <li><img src="images/slider-2.jpg" alt="">
+				                        <div class="banner">Creative Problem-Solving</div>
+				                    </li>
+				                    <li><img src="images/slider-3.jpg" alt="">
+				                        <div class="banner">Imagination is Our Power</div>
+				                    </li>
+				                    <li><img src="images/slider-4.jpg" alt="">
+				                        <div class="banner">The World of Opportunities</div>
+				                    </li>
+				                </ul>
+				            </div>
+				        </div>
+				    </div>
 				</div>
 				<!-- <div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
 					<a href="#contact" class="btn btn-lg">Hire Me</a>
@@ -481,5 +523,6 @@
     <script src="assets/js/jquery.cbpQTRotator.js"></script>
 	<script src="assets/js/custom.js"></script>
 	<script src="assets/js/home_page.js"></script>
+	<script src="assets/js/tms-0.4.1.js"></script>
 </body>
 </html>
