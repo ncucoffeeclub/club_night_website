@@ -124,5 +124,5 @@ function change_parameter(){
 
 
 $(document).ready(function(){
-    setTimeout('change_parameter()',1000);
+    setTimeout('change_parameter()',3000);
 });
