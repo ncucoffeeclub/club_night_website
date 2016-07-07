@@ -58,11 +58,17 @@
 
 /* ------ built-in navigation bullets wrapper ------*/
 #slider .navBulletsWrapper  {
-    top:320px;
+    top:200px;
     text-align:center;
     background:none;
     position:relative;
     z-index:3;
+}
+
+@media (max-width: 767px){
+    #slider .navBulletsWrapper  {
+        top:320px;
+    }
 }
 
 /* each bullet */
