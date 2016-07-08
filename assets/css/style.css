@@ -1039,3 +1039,9 @@ height: 30px;
 width: auto;
 }
 
+.activity-tag a{
+	margin-left: 5px;
+	font-size: 14px;
+	color: white;
+}
+
