@@ -50,6 +50,24 @@
     right: 20px;
 }
 
+@media (max-width: 480px) {
+
+  .unslider-arrow.prev {
+    left: 10px; 
+  }
+
+  .unslider-arrow.next {
+    right: 10px;
+  }
+
+  .unslider {
+    margin: 15px !important; 
+    padding: 15px !important;
+  }
+
+
+}
+
 .unslider-arrow {
     background-image: url(../images/arrow.png);
     width: 32px;
