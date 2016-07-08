@@ -1037,14 +1037,22 @@ figure.effect-bubba p {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#329efc', endColorstr='#2a2a2b',GradientType=1 ); /* IE6-9 */
 	height: 40px;
 	display: table;
-	width: auto;
+	width: 100%;
 }
 
 .activity-tag a{
 	display: table-cell;
-	margin-left: 20px;
+	padding-left: 20px;
 	font-size: 16px;
 	vertical-align: middle;
 	color: #ffffff;
+}
+
+.activity-context {
+	font-weight: 800;
+	padding-left: 20px;
+	font-size: 16px;
+	vertical-align: middle;
+	color: #99e8ff;
 }
 
