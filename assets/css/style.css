@@ -1,5 +1,5 @@
-@import url(http://fonts.useso.com/css?family=Raleway:400,300,500,700,800);
-@import url(http://fonts.useso.com/css?family=Lobster);
+@import url(https://fonts.useso.com/css?family=Raleway:400,300,500,700,800);
+@import url(https://fonts.useso.com/css?family=Lobster);
 
 body {
 	font: 300 14px/1.8 'Raleway', sans-serif;
@@ -1042,6 +1042,7 @@ width: auto;
 .activity-tag a{
 	margin-left: 20px;
 	font-size: 16px;
-	color: #44c4ff;
+	vertical-align: middle;
+	color: #ffffff;
 }
 
