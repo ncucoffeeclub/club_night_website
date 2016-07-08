@@ -246,6 +246,10 @@ textarea.form-control {
 	background: #f5f5f5;
 }
 
+.pfblock-black {
+	background: #CCCCCC;
+}
+
 .pfblock-image {
 	padding: 0;
 }
