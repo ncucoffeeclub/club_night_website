@@ -1,5 +1,5 @@
-@import url(https://fonts.useso.com/css?family=Raleway:400,300,500,700,800);
-@import url(https://fonts.useso.com/css?family=Lobster);
+@import url(http://fonts.useso.com/css?family=Raleway:400,300,500,700,800);
+@import url(http://fonts.useso.com/css?family=Lobster);
 
 body {
 	font: 300 14px/1.8 'Raleway', sans-serif;
@@ -1030,16 +1030,18 @@ figure.effect-bubba p {
 
 .activity-tag {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#329efc+0,000222+63 */
-background: #329efc; /* Old browsers */
-background: -moz-linear-gradient(left, #329efc 0%, #2a2a2b 52%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #329efc 0%,#2a2a2b 52%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #329efc 0%,#2a2a2b 52%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#329efc', endColorstr='#2a2a2b',GradientType=1 ); /* IE6-9 */
-height: 40px;
-width: auto;
+	background: #329efc; /* Old browsers */
+	background: -moz-linear-gradient(left, #329efc 0%, #2a2a2b 52%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #329efc 0%,#2a2a2b 52%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #329efc 0%,#2a2a2b 52%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#329efc', endColorstr='#2a2a2b',GradientType=1 ); /* IE6-9 */
+	height: 40px;
+	display: table;
+	width: auto;
 }
 
 .activity-tag a{
+	display: table-cell;
 	margin-left: 20px;
 	font-size: 16px;
 	vertical-align: middle;
