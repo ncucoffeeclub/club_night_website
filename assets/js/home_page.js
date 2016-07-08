@@ -120,16 +120,76 @@ function change_parameter(){
         var  parameter_4 =document.getElementById('parameter-4_text');
          parameter_4.innerHTML = parameter_array[iterator].parameter_4;
 
-        setTimeout('change_parameter()',10000);
+        setTimeout('change_parameter()',8000);
      }catch(e){
-        setTimeout('change_parameter()',3000);
+        setTimeout('pie_chart_init()',500);
         console.log(e);
      }
     
     
 }
 
+function pie_chart_init(){
+
+        $('.parameter').waypoint(function(){
+            $('.chart1').each(function(){
+            $(this).easyPieChart({
+                    size:140,
+                    animate: 2000,
+                    lineCap:'butt',
+                    scaleColor: false,
+                    barColor: '#FF5252',
+                    trackColor: 'transparent',
+                    lineWidth: 10
+                });
+            });
+        },{offset:'80%'});
+
+        $('.parameter').waypoint(function(){
+            $('.chart2').each(function(){
+            $(this).easyPieChart({
+                    size:140,
+                    animate: 2000,
+                    lineCap:'butt',
+                    scaleColor: false,
+                    barColor: '#FF5252',
+                    trackColor: 'transparent',
+                    lineWidth: 10
+                });
+            });
+        },{offset:'80%'});
+
+        $('.parameter').waypoint(function(){
+            $('.chart3').each(function(){
+            $(this).easyPieChart({
+                    size:140,
+                    animate: 2000,
+                    lineCap:'butt',
+                    scaleColor: false,
+                    barColor: '#FF5252',
+                    trackColor: 'transparent',
+                    lineWidth: 10
+                });
+            });
+        },{offset:'80%'});
+
+        $('.parameter').waypoint(function(){
+            $('.chart4').each(function(){
+            $(this).easyPieChart({
+                    size:140,
+                    animate: 2000,
+                    lineCap:'butt',
+                    scaleColor: false,
+                    barColor: '#FF5252',
+                    trackColor: 'transparent',
+                    lineWidth: 10
+                });
+            });
+        },{offset:'80%'});
+        setTimeout('change_parameter()',500);
+}
+
 
 $(document).ready(function(){
-    setTimeout('change_parameter()',3000);
+    setTimeout('pie_chart_init()',500);
 });
