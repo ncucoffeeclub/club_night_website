@@ -121,8 +121,9 @@ function change_parameter(){
          parameter_4.innerHTML = parameter_array[iterator].parameter_4;
 
         setTimeout('change_parameter()',10000);
-     }catch(err){
+     }catch(e){
         setTimeout('change_parameter()',3000);
+        console.log(e);
      }
     
     
