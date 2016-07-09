@@ -1068,7 +1068,7 @@ figure.effect-bubba p {
 }
 
 .activity-subcontext a{
-	display: table-cell;
+	display: inline;
 	color: #FF5511;
 }
 
