@@ -1083,8 +1083,7 @@ figure.effect-bubba p {
 
 .slider-frame{
 	background: #fff;
-	border: 1px solid #d4d4d4;
-	border-radius: 10%;
+	border: 10px solid #d4d4d4;
 }
 
 .slider-textframe{
