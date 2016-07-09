@@ -193,7 +193,7 @@ function pie_chart_init(){
 $(document).ready(function(){
 
     $.getScript("assets/js/fade.js", function(){
-       alert("Script loaded");
+       // alert("Script loaded");
        var btns = iBase.Id('demo');
 
        btns.onclick = function(){
