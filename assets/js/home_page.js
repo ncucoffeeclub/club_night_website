@@ -58,7 +58,7 @@ var parameter_array = [{
     "parameter_4":23,
 },{
     "icon_src":"assets/images/icon_aeropress.png",
-    "name":"Espresso",
+    "name":"Aeropress",
     "parameter_1":75,
     "parameter_2":12,
     "parameter_3":2.5,
