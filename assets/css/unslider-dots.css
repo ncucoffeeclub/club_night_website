@@ -101,5 +101,7 @@
 }
 
 .slider-container .slider-img{
+ width: auto;
+ margin: 0;
  position: absolute;
 }
