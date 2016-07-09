@@ -86,6 +86,7 @@
 }
 
 .slider-text{
+  position: relative;
   vertical-align: bottom;
   background-color: #DDDDDD;
   opacity: .2;
