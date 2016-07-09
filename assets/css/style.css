@@ -1072,5 +1072,14 @@ figure.effect-bubba p {
 	color: #FF5511;
 }
 
+.slider-img{
+	position: relative;
+}
+
+.slider-text{
+	position: absolute;
+	bottom: 0;
+}
+
 
 
