@@ -1077,8 +1077,9 @@ figure.effect-bubba p {
 }
 
 .slider-text{
-	height: 42px;
+	height: 24px;
 	width: auto;
+	white-space: nowrap;
 	overflow: hidden;
 	text-overflow:ellipsis;
 	font-size: 12px;
