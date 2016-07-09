@@ -195,6 +195,10 @@ $(document).ready(function(){
     $.getScript("assets/js/fade.js", function(){
        alert("Script loaded");
        var btns = iBase.Id('demo');
+
+       btns[0].onclick = function(){
+            fadeIn(iBase.Id('demo_container'));
+        }
     });
 
     
