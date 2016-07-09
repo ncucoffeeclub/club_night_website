@@ -45,25 +45,6 @@
 	      xfbml      : true,
 	      version    : 'v2.6'
 	    });
-	    var access_token;
-
-	    FB.api('/NCUcafeclub',{fields: 'access_token'}, function(response) {
-		    console.log(response.access_token);
-		    access_token = response.access_token;
-
-		    FB.api(
-			    "/NCUcafeclub/feed?access_token="+access_token,
-			    function (response) {
-			      // if (response && !response.error) {
-			        /* handle the result */
-			        console.log(response);
-			      // }
-			    }
-			);
-		}); 
-
-	   
-
 	  };
 
 	  (function(d, s, id){
@@ -73,8 +54,6 @@
 	     js.src = "//connect.facebook.net/en_US/sdk.js";
 	     fjs.parentNode.insertBefore(js, fjs);
 	   }(document, 'script', 'facebook-jssdk'));
-
-
 	  
 	</script>
 
