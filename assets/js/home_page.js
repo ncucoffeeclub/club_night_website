@@ -36,28 +36,28 @@ $(document).ready(function(){
 var counter=50;
 
 var parameter_array = [{
-    "icon_src":"../assets/images/icon_driping_brew.png",
+    "icon_src":"assets/images/icon_driping_brew.png",
     "name":"Drip coffee",
     "parameter_1":85,
     "parameter_2":13,
     "parameter_3":3,
     "parameter_4":80,
 },{
-    "icon_src":"../assets/images/icon_syphon.png",
+    "icon_src":"assets/images/icon_syphon.png",
     "name":"Syphon",
     "parameter_1":82,
     "parameter_2":15,
     "parameter_3":3.5,
     "parameter_4":50,
 },{
-    "icon_src":"../assets/images/icon_espresso.png",
+    "icon_src":"assets/images/icon_espresso.png",
     "name":"Espresso",
     "parameter_1":89,
     "parameter_2":2,
     "parameter_3":1,
     "parameter_4":23,
 },{
-    "icon_src":"../assets/images/icon_aeropress.png",
+    "icon_src":"assets/images/icon_aeropress.png",
     "name":"Espresso",
     "parameter_1":75,
     "parameter_2":12,
