@@ -47,7 +47,7 @@
 	    });
 	    var access_token;
 
-	    FB.api('/'+NCUcafeclub+'?fields=id,likes,name,access_token', function(response) {
+	    FB.api('/NCUcafeclub?fields=id,likes,name,access_token', function(response) {
 		    console.log(response.access_token);
 		    access_token = response.access_token;
 		}); 
