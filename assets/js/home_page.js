@@ -202,7 +202,7 @@ var coffee_corner_array = [{
 
 function add_coffee_corner_nav(counter){
     var pretext =  document.getElementById("coffee_corner_nav").innerHTML;
-    document.getElementById("coffee_corner_nav").innerHTML = pretext+"<li><input type=\"button\" value="+(counter+1)+" onclick=\"gotoNode(" + counter + ")\" class=\"wow fadeInUp\"></input></li>";
+    document.getElementById("coffee_corner_nav").innerHTML = pretext+"<li><input type=\"button\" value="+(counter+1)+" onclick=\"change_coffee_corner_text(" + counter + ")\" class=\"wow fadeInUp\"></input></li>";
 }
 
 $(document).ready(function(){
@@ -215,17 +215,26 @@ $(document).ready(function(){
             add_coffee_corner_nav(i);
        }
        var btns = iBase.Id('coffee_corner_nav').getElementsByTagName('input');
-       for(var i=0;i<length;i++){
-            btns[i].onclick = function(item){
-                // fadeOut(iBase.Id('coffee_corner_container'));
-                iBase.Id('coffee_corner_title').innerHTML = coffee_corner_array[item].title;
-                iBase.Id('coffee_corner_subtitle').innerHTML = coffee_corner_array[item].subtitle;
-                iBase.Id('coffee_corner_context').innerHTML = coffee_corner_array[item].context;
-                fadeIn(iBase.Id('coffee_corner_container'));
-            }
-       }
+       // for(var i=0;i<length;i++){
+       //      btns[i].onclick = function(item){
+       //          // fadeOut(iBase.Id('coffee_corner_container'));
+       //          iBase.Id('coffee_corner_title').innerHTML = coffee_corner_array[item].title;
+       //          iBase.Id('coffee_corner_subtitle').innerHTML = coffee_corner_array[item].subtitle;
+       //          iBase.Id('coffee_corner_context').innerHTML = coffee_corner_array[item].context;
+       //          fadeIn(iBase.Id('coffee_corner_container'));
+       //      }
+       // }
     });
 
     
     setTimeout('pie_chart_init()',500);
 });
+
+
+function change_coffee_corner_text(item){
+                // fadeOut(iBase.Id('coffee_corner_container'));
+    iBase.Id('coffee_corner_title').innerHTML = coffee_corner_array[item].title;
+    iBase.Id('coffee_corner_subtitle').innerHTML = coffee_corner_array[item].subtitle;
+    iBase.Id('coffee_corner_context').innerHTML = coffee_corner_array[item].context;
+    fadeIn(iBase.Id('coffee_corner_container'));
+}
