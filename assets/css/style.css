@@ -1077,7 +1077,7 @@ figure.effect-bubba p {
 }
 
 .slider-text{
-	font-size: 14px;
+	font-size: 12px;
 	color: #EEE;
 }
 
@@ -1097,9 +1097,15 @@ figure.effect-bubba p {
 }
 
 .slider-title{
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: 500;
 	color: white;
+}
+
+.slider-subtitle{
+	font-size: 9px;
+	font-weight: 200;
+	color: #DDD;
 }
 
 
