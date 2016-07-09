@@ -1115,12 +1115,14 @@ figure.effect-bubba p {
 }
 
 .activity-links div {
-	width: 36px;
-	height: 36px;
+	width: 24px;
+	height: 24px;
+	margin-top: 3px;
 	display: block;
 	line-height: 35px;
 	text-align: center;
 	border: 1px solid rgba(255, 255, 255, .9);
+	border-radius: 50%;
 	-webkit-border-radius: 3px;
 	   -moz-border-radius: 3px;
 			border-radius: 3px;
