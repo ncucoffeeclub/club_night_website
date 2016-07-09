@@ -208,7 +208,7 @@ $(document).ready(function(){
 
     $.getScript("assets/js/fade.js", function(){
        // alert("Script loaded");
-       var length = coffee_corner_array.length;
+       var length = coffee_corner_array.length+1;
 
        for(var i=0;i<length;i++){
             add_coffee_corner_nav(i);
@@ -216,7 +216,7 @@ $(document).ready(function(){
        var btns = iBase.Id('coffee_corner_nav').getElementsByTagName('input');
        for(var i=0;i<length;i++){
             btns[i].onclick = function(){
-                fadeOut(iBase.Id('coffee_corner_container'));
+                // fadeOut(iBase.Id('coffee_corner_container'));
                 iBase.Id('coffee_corner_title').innerHTML = coffee_corner_array[i].title;
                 iBase.Id('coffee_corner_subtitle').innerHTML = coffee_corner_array[i].subtitle;
                 iBase.Id('coffee_corner_context').innerHTML = coffee_corner_array[i].context;
