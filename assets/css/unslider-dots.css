@@ -99,3 +99,7 @@
   margin: 0;
   opacity: .2;
 }
+
+.slider-container .slider-img{
+ position: absolute;
+}
