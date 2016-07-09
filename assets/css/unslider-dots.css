@@ -92,7 +92,7 @@
   
 }
 
-.slider-container.slider-text{
+.slider-container .slider-text{
   width: auto;
   vertical-align: bottom;
   background-color: #DDDDDD;
