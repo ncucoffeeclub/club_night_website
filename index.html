@@ -45,9 +45,15 @@
 	      xfbml      : true,
 	      version    : 'v2.6'
 	    });
+	    var access_token;
+
+	    FB.api('/'+NCUcafeclub+'?fields=id,likes,name,access_token', function(response) {
+		    console.log(response.access_token);
+		    access_token = response.access_token;
+		}); 
 
 	    FB.api(
-		    "/NCUcafeclub/feed",
+		    "/NCUcafeclub/feed?access_token="+access_token,
 		    function (response) {
 		      // if (response && !response.error) {
 		        /* handle the result */
