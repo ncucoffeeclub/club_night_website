@@ -1078,7 +1078,7 @@ figure.effect-bubba p {
 
 .slider-text{
 	font-size: 14px;
-	color: #222;
+	color: #EEE;
 }
 
 .slider-frame{
@@ -1086,7 +1086,7 @@ figure.effect-bubba p {
 }
 
 .slider-textframe{
-	background: #EEE;
+	background: #000;
 	border: 1px solid #d4d4d4;
 	border-radius: 4%;
 	opacity: 0.8;
