@@ -1125,7 +1125,7 @@ figure.effect-bubba p {
 	margin: 5px;
 }
 
-.activity-links div {
+.activity-links input {
 	width: 28px;
 	height: 28px;
 	margin-top: 3px;
@@ -1141,7 +1141,7 @@ figure.effect-bubba p {
 	color: rgba(255, 255, 255, .5);
 }
 
-.activity-links div:hover {
+.activity-links input:hover {
 	border: 1px solid rgba(255, 255, 255, .9);
 	color: rgba(255, 255, 255, .9);
 }
