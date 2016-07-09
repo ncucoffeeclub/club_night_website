@@ -1059,11 +1059,21 @@ figure.effect-bubba p {
 }
 
 .activity-subcontext{
+	display: table;
 	margin-top: 8px;
 	padding-left: 20px;
 	font-size: 16px;
 	vertical-align: middle;
-	color: #ffffff;
+	color: #DDDDDD;
+}
+
+.activity-subcontext a{
+	display: table-cell;
+	margin-top: 8px;
+	padding-left: 20px;
+	font-size: 22px;
+	vertical-align: middle;
+	color: #FF5511;
 }
 
 
