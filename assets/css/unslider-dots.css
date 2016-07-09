@@ -85,9 +85,17 @@
     transition: opacity .2s;
 }
 
-.slider-text{
+.slider-container{
+  width: auto;
+  padding: 0;
   position: relative;
+  
+}
+
+.slider-container.slider-text{
+  width: auto;
   vertical-align: bottom;
   background-color: #DDDDDD;
+  padding: 0;
   opacity: .2;
 }
