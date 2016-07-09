@@ -235,6 +235,6 @@ function change_coffee_corner_text(item){
     iBase.Id('coffee_corner_subtitle').innerHTML = coffee_corner_array[item].subtitle;
     iBase.Id('coffee_corner_context').innerHTML = coffee_corner_array[item].context;
     iBase.Id('coffee_corner_img').src = coffee_corner_array[item].photo;
-    $('#fb-like').data('href', coffee_corner_array[item].url);
+    $('#coffee_corner_facebook-like').data('href', coffee_corner_array[item].url);
     fadeIn(iBase.Id('coffee_corner_container'));
 }
