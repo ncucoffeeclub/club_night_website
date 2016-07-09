@@ -1103,4 +1103,35 @@ figure.effect-bubba p {
 }
 
 
+.acitivity-links {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 20px;
+}
+
+.acitivity-links li {
+	display: inline-block;
+	margin: 5px;
+}
+
+.acitivity-links div {
+	width: 36px;
+	height: 36px;
+	display: block;
+	line-height: 35px;
+	text-align: center;
+	border: 1px solid rgba(255, 255, 255, .9);
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+			border-radius: 3px;
+	font-size: 14px;
+	color: rgba(255, 255, 255, .5);
+}
+
+.acitivity-links div:hover {
+	border: 1px solid rgba(255, 255, 255, .9);
+	color: rgba(255, 255, 255, .9);
+}
+
+
 
