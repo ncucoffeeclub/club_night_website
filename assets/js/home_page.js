@@ -36,23 +36,33 @@ $(document).ready(function(){
 var counter=50;
 
 var parameter_array = [{
+    "icon_src":"../images/icon_driping_brew.png",
     "name":"Drip coffee",
     "parameter_1":85,
     "parameter_2":13,
     "parameter_3":3,
     "parameter_4":80,
 },{
+    "icon_src":"../images/icon_syphon.png",
     "name":"Syphon",
     "parameter_1":82,
     "parameter_2":15,
     "parameter_3":3.5,
     "parameter_4":50,
 },{
+    "icon_src":"../images/icon_espresso.png",
     "name":"Espresso",
     "parameter_1":89,
     "parameter_2":2,
     "parameter_3":1,
     "parameter_4":23,
+},{
+    "icon_src":"../images/icon_aeropress.png",
+    "name":"Espresso",
+    "parameter_1":75,
+    "parameter_2":12,
+    "parameter_3":2.5,
+    "parameter_4":70,
 }]
 
 var iterator=0;
@@ -88,8 +98,10 @@ function change_parameter(){
         iterator=0;
     }
     var title =document.getElementById('parameter_title');
+    document.getElementById("parameter_icon").src = parameter_array[iterator].icon_src;
     // fadeOut('parameter_title');
     title.innerHTML = parameter_array[iterator].name;
+
     // fadeIn('parameter_title');
     try{
         $('.parameter').waypoint(function(){
