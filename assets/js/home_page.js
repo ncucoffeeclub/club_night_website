@@ -1,4 +1,4 @@
-$.getScript("fade.js", function(){
+$.getScript("assets/js/fade.js", function(){
    alert("Script loaded");
 });
 
