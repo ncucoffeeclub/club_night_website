@@ -201,14 +201,15 @@ var coffee_corner_array = [{
 }]
 
 function add_coffee_corner_nav(counter){
-    document.getElementById("coffee_corner_nav").innerHTML = "<input type=\"button\" value="+counter+" class=\"wow fadeInUp\"></input>";
+    var pretext =  document.getElementById("coffee_corner_nav").innerHTML;
+    document.getElementById("coffee_corner_nav").innerHTML = pretext+"<input type=\"button\" value="+(counter+1)+" class=\"wow fadeInUp\"></input>";
 }
 
 $(document).ready(function(){
 
     $.getScript("assets/js/fade.js", function(){
        // alert("Script loaded");
-       var length = coffee_corner_array.length+1;
+       var length = coffee_corner_array.length;
 
        for(var i=0;i<length;i++){
             add_coffee_corner_nav(i);
