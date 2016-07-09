@@ -45,6 +45,17 @@
 	      xfbml      : true,
 	      version    : 'v2.6'
 	    });
+
+	    FB.api(
+		    "/NCUcafeclub/feed",
+		    function (response) {
+		      if (response && !response.error) {
+		        /* handle the result */
+		        console.log(response);
+		      }
+		    }
+		);
+
 	  };
 
 	  (function(d, s, id){
@@ -55,15 +66,7 @@
 	     fjs.parentNode.insertBefore(js, fjs);
 	   }(document, 'script', 'facebook-jssdk'));
 
-	  FB.api(
-		    "/NCUcafeclub/feed",
-		    function (response) {
-		      if (response && !response.error) {
-		        /* handle the result */
-		        console.log(response);
-		      }
-		    }
-		);
+
 	  
 	</script>
 
