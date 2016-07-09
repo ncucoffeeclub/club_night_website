@@ -53,16 +53,16 @@
 @media (max-width: 480px) {
 
   .unslider-arrow.prev {
-    left: 10px; 
+    left: 5px; 
   }
 
   .unslider-arrow.next {
-    right: 10px;
+    right: 5px;
   }
 
   .unslider {
-    margin: 15px ; 
-    padding: 15px ;
+    margin: 10px ; 
+    padding: 10px ;
   }
 
 
