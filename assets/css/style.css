@@ -1062,7 +1062,7 @@ figure.effect-bubba p {
 	display: table;
 	margin-top: 8px;
 	padding-left: 20px;
-	font-size: 14px;
+	font-size: 16px;
 	vertical-align: middle;
 	color: #FFFFFF;
 }
@@ -1100,13 +1100,13 @@ figure.effect-bubba p {
 }
 
 .slider-title{
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 500;
 	color: white;
 }
 
 .slider-subtitle{
-	font-size: 9px;
+	font-size: 12px;
 	font-weight: 200;
 	color: #DDD;
 }
