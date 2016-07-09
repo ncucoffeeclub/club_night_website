@@ -1,6 +1,4 @@
-$.getScript("assets/js/fade.js", function(){
-   alert("Script loaded");
-});
+
 
 function checkTime(i)
 {
@@ -193,6 +191,10 @@ function pie_chart_init(){
 
 
 $(document).ready(function(){
+
+    $.getScript("assets/js/fade.js", function(){
+       alert("Script loaded");
+    });
 
     var btns = iBase.Id('demo');
     setTimeout('pie_chart_init()',500);
