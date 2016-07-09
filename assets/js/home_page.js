@@ -201,7 +201,7 @@ var coffee_corner_array = [{
 }]
 
 function add_coffee_corner_nav(counter){
-    document.getElementById("coffee_corner_nav").innerHTML = "input type=\"button\" value="+counter+" class=\"wow fadeInUp\"></input>";
+    document.getElementById("coffee_corner_nav").innerHTML = "<input type=\"button\" value="+counter+" class=\"wow fadeInUp\"></input>";
 }
 
 $(document).ready(function(){
