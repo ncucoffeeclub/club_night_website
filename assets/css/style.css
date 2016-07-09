@@ -1081,5 +1081,11 @@ figure.effect-bubba p {
 	bottom: 0;
 }
 
+.slider-frame{
+	background: #fff;
+	border: 1px solid #d4d4d4;
+	border-radius: 20%;
+}
+
 
 
