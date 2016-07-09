@@ -1103,18 +1103,18 @@ figure.effect-bubba p {
 }
 
 
-.acitivity-links {
+.activity-links {
 	list-style: none;
 	padding: 0;
 	margin: 0 0 20px;
 }
 
-.acitivity-links li {
+.activity-links li {
 	display: inline-block;
 	margin: 5px;
 }
 
-.acitivity-links div {
+.activity-links div {
 	width: 36px;
 	height: 36px;
 	display: block;
@@ -1128,7 +1128,7 @@ figure.effect-bubba p {
 	color: rgba(255, 255, 255, .5);
 }
 
-.acitivity-links div:hover {
+.activity-links div:hover {
 	border: 1px solid rgba(255, 255, 255, .9);
 	color: rgba(255, 255, 255, .9);
 }
