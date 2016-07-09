@@ -196,7 +196,7 @@ $(document).ready(function(){
        alert("Script loaded");
        var btns = iBase.Id('demo');
 
-       btns[0].onclick = function(){
+       btns.onclick = function(){
             fadeIn(iBase.Id('demo_container'));
         }
     });
