@@ -249,7 +249,11 @@ function reward_listener(){
 
     var spantime = (endDate - startDate)/1000;
     if(spantime >0){
-         $( "#dialog" ).dialog();
+        BootstrapDialog.show({
+            title: 'Changing dialog type',
+            message: 'Click buttons below...',
+            buttons: buttons
+        });
     }else{
         alert("正在更新")
     }
