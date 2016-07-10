@@ -241,3 +241,16 @@ function change_coffee_corner_text(item){
     iBase.Id('coffee_corner_icon').src = coffee_corner_array[item].icon;
     fadeIn(iBase.Id('coffee_corner_container'));
 }
+
+
+function reward_listener(){
+    var endDate = new Date('2016/7/15 00:00');
+    var startDate = new Date();
+
+    var spantime = (endDate - startDate)/1000;
+    if(spantime >0){
+         $( "#dialog" ).dialog();
+    }else{
+        alert("正在更新")
+    }
+}
