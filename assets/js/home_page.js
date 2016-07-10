@@ -249,12 +249,8 @@ function reward_listener(){
 
     var spantime = (endDate - startDate)/1000;
     if(spantime >0){
-        BootstrapDialog.show({
-            title: 'Changing dialog type',
-            message: 'Click buttons below...',
-            buttons: buttons
-        });
+        alert("不是不到 時候未到")
     }else{
-        alert("正在更新")
+        alert("正在更新中 等喔")
     }
 }
