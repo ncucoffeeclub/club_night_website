@@ -1074,6 +1074,7 @@ figure.effect-bubba p {
 
 .slider-img{
 	position: relative;
+	max-width:760px; 
 }
 
 .slider-text{
