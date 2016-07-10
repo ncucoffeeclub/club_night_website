@@ -1074,7 +1074,6 @@ figure.effect-bubba p {
 
 .slider-img{
 	position: relative;
-	max-width:760px; 
 }
 
 .slider-text{
@@ -1119,6 +1118,9 @@ figure.effect-bubba p {
 	display: inline;
 }
 
+.activity-img{
+	max-width:760px; 
+}
 
 .activity-links {
 	list-style: none;
