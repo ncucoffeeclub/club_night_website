@@ -38,7 +38,7 @@ var counter=50;
 
 var parameter_array = [{
     "icon_src":"assets/images/icon_driping_brew.png",
-    "name":"Drip coffee",
+    "name":"Driping brew",
     "parameter_1":85,
     "parameter_2":13,
     "parameter_3":3,
