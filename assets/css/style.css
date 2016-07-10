@@ -1120,6 +1120,8 @@ figure.effect-bubba p {
 
 .activity-img{
 	max-width:760px; 
+	width: 100%;
+	background-image: "assets/images/reword.jpg";
 }
 
 .activity-links {
