@@ -195,13 +195,15 @@ var coffee_corner_array = [{
     "subtitle":" 2016年7月3日 22:55 ",
     "context":"義式濃縮，它有著很浪漫的名字--Espresso，同時也是最水霧奔騰的沖煮咖啡方式，交由機器萃出最濃郁的精華，使用最洗鍊的方式保留了它最醇厚的面貌，看看那直流而下的濃縮液，可知道它是9大氣壓與無數細粉之下的產物，只為見妳一面，然後我會為妳打上綿密的奶泡，注入一點點的空氣使其柔順溫潤，打奶泡的聲音由宏亮尖銳轉為寂靜低沉，這次的圖形，是我送給妳的祝福，推，意味著我默默支持妳的力量，晃，是我帶開液面排除一切阻礙，我小心翼翼的端到妳面前，怎見妳又在嘆氣，感嘆我拖拉，唉。",
     "photo":"assets/images/coffee_corner_1.jpg",
-    "url":"https://www.facebook.com/NCUcafeclub/photos/a.529630230387036.144412.529342827082443/1358826524134065/?type=3&permPage=1"
+    "url":"https://www.facebook.com/NCUcafeclub/photos/a.529630230387036.144412.529342827082443/1358826524134065/?type=3&permPage=1",
+    "icon":"assets/images/icon_espresso.png"
 },{
     "title":"Dripping brew",
     "subtitle":" 2016年7月9日 22:55 ",
     "context":"僅以手沖，吧臺前，我緩緩的傾注，停滯的三分間，流動是唯一的拖延，液體沿著骨幹，剛直與蜿蜒，溶解，萃取，用最簡單、最純粹的方式，讓咖啡豆說出自己的秘密。",
     "photo":"assets/images/coffee_corner_2.jpg",
-    "url":"https://www.facebook.com/NCUcafeclub/photos/a.529630230387036.144412.529342827082443/1363160170367367/?type=3&permPage=1"
+    "url":"https://www.facebook.com/NCUcafeclub/photos/a.529630230387036.144412.529342827082443/1363160170367367/?type=3&permPage=1",
+    "icon":"assets/images/icon_driping_brew.png"
 }]
 
 function add_coffee_corner_nav(counter){
@@ -231,9 +233,10 @@ $(document).ready(function(){
 
 function change_coffee_corner_text(item){
                 // fadeOut(iBase.Id('coffee_corner_container'));
-    iBase.Id('coffee_corner_title').innerHTML = coffee_corner_array[item].title;
+    iBase.Id('coffee_corner_title').innerHTML = "<a href=\""+coffee_corner_array[item].url+"\">"+coffee_corner_array[item].title+"</a>";
     iBase.Id('coffee_corner_subtitle').innerHTML = coffee_corner_array[item].subtitle;
     iBase.Id('coffee_corner_context').innerHTML = coffee_corner_array[item].context;
     iBase.Id('coffee_corner_img').src = coffee_corner_array[item].photo;
+    iBase.Id('coffee_corner_icon').src = coffee_corner_array[item].icon;
     fadeIn(iBase.Id('coffee_corner_container'));
 }
