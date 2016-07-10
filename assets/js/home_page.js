@@ -105,7 +105,7 @@ function change_parameter(){
 
     // fadeIn('parameter_title');
     try{
-        pie_chart_init();
+        // pie_chart_init();
         $('.parameter').waypoint(function(){
             $('.chart1').data('easyPieChart').update(parameter_array[iterator].parameter_1);
             $('.chart2').data('easyPieChart').update((100*parameter_array[iterator].parameter_2/20));
