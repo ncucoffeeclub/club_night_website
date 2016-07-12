@@ -242,11 +242,11 @@ function change_coffee_corner_text(item){
     iBase.Id('coffee_corner_img').src = coffee_corner_array[item].photo;
     iBase.Id('coffee_corner_icon').src = coffee_corner_array[item].icon;
     if(coffee_corner_array[item].page == 'horizontal'){
-        iBase.Id('activity-page').addClass('col-md-6').removeClass('col-md-8');
-        iBase.Id('activity-page').addClass('col-md-offset-3').removeClass('col-md-offset-2');
+        $("#activity-page").addClass('col-md-8').removeClass('col-md-2');
+        $("#activity-page").addClass('col-md-offset-2').removeClass('col-md-offset-3');
     }else if(coffee_corner_array[item].page == 'vertical'){
-        iBase.Id('activity-page').addClass('col-md-8').removeClass('col-md-6');
-        iBase.Id('activity-page').addClass('col-md-offset-2').removeClass('col-md-offset-3');
+        $("#activity-page").addClass('col-md-6').removeClass('col-md-8');
+        $("#activity-page").addClass('col-md-offset-3').removeClass('col-md-offset-2');
     }
     
     fadeIn(iBase.Id('coffee_corner_container'));
