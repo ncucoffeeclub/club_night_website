@@ -242,7 +242,7 @@ function change_coffee_corner_text(item){
     iBase.Id('coffee_corner_img').src = coffee_corner_array[item].photo;
     iBase.Id('coffee_corner_icon').src = coffee_corner_array[item].icon;
     if(coffee_corner_array[item].page == 'horizontal'){
-        $("#activity-page").addClass('col-md-8').removeClass('col-md-2');
+        $("#activity-page").addClass('col-md-8').removeClass('col-md-6');
         $("#activity-page").addClass('col-md-offset-2').removeClass('col-md-offset-3');
     }else if(coffee_corner_array[item].page == 'vertical'){
         $("#activity-page").addClass('col-md-6').removeClass('col-md-8');
