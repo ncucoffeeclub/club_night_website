@@ -258,8 +258,15 @@ function reward_listener(){
     var startDate = new Date();
 
     var spantime = (endDate - startDate)/1000;
+
+    var d = Math.floor(spantime / (24 * 3600));
+    var h = Math.floor((spantime % (24*3600))/3600);
+    var m = Math.floor((spantime % 3600)/(60));
+    var s = Math.floor(spantime%60);
+
+    
     if(spantime >0){
-        alert("不是不到 時候未到")
+        alert("不是不到 時候未到 \n 還有 " + d + "天 " + h + "小時 " + m + "分 "+ s +"秒 ");
     }else{
         alert("正在更新中 等喔")
     }
