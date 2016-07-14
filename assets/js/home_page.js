@@ -268,6 +268,7 @@ function reward_listener(){
     if(spantime >0){
         alert("不是不到 時候未到 \n 還有 " + d + "天 " + h + "小時 " + m + "分 "+ s +"秒 ");
     }else{
-        alert("正在更新中 等喔")
+        window.location.assign("https://ncucoffeeclub.github.io/coffee_corner_report/");
+        // alert("正在更新中 等喔");
     }
 }
