@@ -266,9 +266,9 @@ function reward_listener(){
     var m = Math.floor((start_spantime % 3600)/(60));
     var s = Math.floor(start_spantime%60);
     
-    if(spantime >0){
+    if(start_spantime >0){
         alert("不是不到 時候未到 \n還有 " + d + "天 " + h + "小時 " + m + "分 "+ s +"秒 ");
-    }else if(spantime <0 && end_spantime>0){
+    }else if(start_spantime <0 && end_spantime>0){
         window.location.assign("https://ncucoffeeclub.github.io/coffee_corner_report/");
     }else{
         alert("活動已結束");
