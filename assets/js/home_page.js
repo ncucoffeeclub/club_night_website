@@ -254,21 +254,23 @@ function change_coffee_corner_text(item){
 
 
 function reward_listener(){
-    var endDate = new Date('2016/7/15 00:00');
-    var startDate = new Date();
+    var startDate = new Date('2016/7/15 00:00');
+    var endDate = new Date('2016/7/16 00:00');
+    var now = new Date();
 
-    var spantime = (endDate - startDate)/1000;
+    var start_spantime = (startDate - now)/1000;
+    var end_spantime = (endDate - now)/1000;
 
-    var d = Math.floor(spantime / (24 * 3600));
-    var h = Math.floor((spantime % (24*3600))/3600);
-    var m = Math.floor((spantime % 3600)/(60));
-    var s = Math.floor(spantime%60);
-
+    var d = Math.floor(start_spantime / (24 * 3600));
+    var h = Math.floor((start_spantime % (24*3600))/3600);
+    var m = Math.floor((start_spantime % 3600)/(60));
+    var s = Math.floor(start_spantime%60);
     
     if(spantime >0){
-        alert("不是不到 時候未到 \n 還有 " + d + "天 " + h + "小時 " + m + "分 "+ s +"秒 ");
-    }else{
+        alert("不是不到 時候未到 \n還有 " + d + "天 " + h + "小時 " + m + "分 "+ s +"秒 ");
+    }else if(spantime <0 && end_spantime>0){
         window.location.assign("https://ncucoffeeclub.github.io/coffee_corner_report/");
-        // alert("正在更新中 等喔");
+    }else{
+        alert("活動已結束");
     }
 }
