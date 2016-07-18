@@ -207,6 +207,14 @@ var coffee_corner_array = [{
     "page":"vertical",
     "url":"https://www.facebook.com/NCUcafeclub/photos/a.529630230387036.144412.529342827082443/1363160170367367/?type=3&permPage=1",
     "icon":"assets/images/icon_driping_brew_gray.png"
+},{
+    "title":"Syphon",
+    "subtitle":" 2016年7月16日 22:35 ",
+    "context":"賽風是一種利用加熱水蒸氣加壓，把水從下面的玻璃壺衝上去的沖煮方法，因著100 °C的水變成100 °C的水蒸氣可膨脹1600倍以上，水便會逆著地心引力向上，之後我們會加入咖啡粉並攪拌，最後移開火源，咖啡便會因為壓力不足而下落，水的沸騰為了讓自身向上進行焠鍊，在經過一切完整地準備，一杯精華便順流而下，香氣四溢，我也曾為此深深疑惑卻著迷，想著賽風何以運作，何以成咖啡，直到進入社團，慢慢聽，慢慢學，如今我仍為了咖啡新知而興奮，這是不會改變的，也是我希望大家感受到的",
+    "photo":"assets/images/coffee_corner_3.jpg",
+    "page":"horizontal",
+    "url":"https://www.facebook.com/NCUcafeclub/photos/a.529630230387036.144412.529342827082443/1368472279836156/?type=3&theater",
+    "icon":"assets/images/icon_syphon_gray.png"
 }]
 
 function add_coffee_corner_nav(counter){
