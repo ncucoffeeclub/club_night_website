@@ -215,6 +215,22 @@ var coffee_corner_array = [{
     "page":"horizontal",
     "url":"https://www.facebook.com/NCUcafeclub/photos/a.529630230387036.144412.529342827082443/1368472279836156/?type=3&theater",
     "icon":"assets/images/icon_syphon_gray.png"
+},{
+    "title":"AeroPress",
+    "subtitle":" 2016年7月23日 22:35 ",
+    "context":"愛樂壓，這是以方便快速為訴求的沖煮方式，用空氣產生壓力萃取咖啡，恐怕是我聽過最荒唐的方法了，曾經，滿是好奇的看著黑色針筒般的愛樂壓，從小到大，人們總說壓力會帶來成長，那麼，愛樂壓是否會是一種體現?下粉，注水，攪拌，再注水，攪拌，倒置擠壓，當懸浮的咖啡粉經過攪拌碰撞，遇上水的奮不顧身，壓縮，一杯愛樂壓咖啡便會現身，於是於是你可以平心靜氣的享受咖啡的美好，或者更進一步的瞭解，沖煮者或烘焙者想要藉由咖啡表達的事情，無論沖煮工具或是手法，我們有很多種的沖煮方式，但都只有一個目的:更好，我們都不斷努力著讓咖啡變得更好喝。",
+    "photo":"assets/images/coffee_corner_4.jpg",
+    "page":"horizontal",
+    "url":"https://www.facebook.com/NCUcafeclub/photos/a.529630230387036.144412.529342827082443/1373846952632022/?type=3&theater",
+    "icon":"assets/images/icon_aeropress_gray.png"
+},{
+    "title":"Coffee beans",
+    "subtitle":" 2016年7月30日 22:35 ",
+    "context":"咖啡可能伴你挑燈夜戰無數個夜晚，可能提高了約會的情調，但你喝的咖啡到底是什麼?曾好奇在乎過嗎?如我之前提到的阿拉比卡還有羅布斯塔等豆種，以下稍作簡單介紹：阿拉比卡，被認為是最優良品種，只能生長在600米以上、土地肥沃、排水良好之地，具明顯的香氣，且有獨特的味道，羅布斯塔，其耐病能力與產果率更高，可種於阿拉比卡無法生長之濕熱地帶，常作為即溶咖啡，喝起來常帶苦帶澀帶鹹，有橡膠味，咖啡喝起來應該是愉悅的，而不是提心吊膽的害怕睡不著又或是身體不舒服，我們在做的事情很簡單，我們在推廣好的咖啡，如果各位很重視自己吃了甚麼、衛不衛生，那，咖啡又怎該是被馬虎的一項呢?",
+    "photo":"assets/images/coffee_corner_5.jpg",
+    "page":"horizontal",
+    "url":"https://www.facebook.com/NCUcafeclub/photos/a.529630230387036.144412.529342827082443/1379260985423952/?type=3&theater",
+    "icon":"assets/images/icon_coffee_beans.png"
 }]
 
 function add_coffee_corner_nav(counter){
