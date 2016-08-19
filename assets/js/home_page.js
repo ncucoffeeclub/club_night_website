@@ -278,8 +278,8 @@ function change_coffee_corner_text(item){
 
 
 function reward_listener(){
-    var startDate = new Date('2016/7/15 00:00');
-    var endDate = new Date('2016/7/16 00:00');
+    var startDate = new Date('2016/8/20 00:00');
+    var endDate = new Date('2016/8/29 00:00');
     var now = new Date();
 
     var start_spantime = (startDate - now)/1000;
@@ -293,7 +293,7 @@ function reward_listener(){
     if(start_spantime >0){
         alert("不是不到 時候未到 \n還有 " + d + "天 " + h + "小時 " + m + "分 "+ s +"秒 ");
     }else if(start_spantime <0 && end_spantime>0){
-        window.location.assign("https://ncucoffeeclub.github.io/coffee_corner_report/");
+        window.location.assign("https://ncucoffeeclub.github.io/coffee_corner_report2/");
     }else{
         alert("活動已結束");
     }
