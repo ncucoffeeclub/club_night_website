@@ -1156,5 +1156,36 @@ figure.effect-bubba p {
 	color: rgba(255, 255, 255, .9);
 }
 
+.reward-photo1 {
+	border: 20px solid #d4d4d4;
+	width: auto;
+	height: 480px;
+	-moz-transform:rotate(-10deg);
+	-webkit-transform:rotate(-10deg);
+	-o-transform:rotate(-10deg);
+	-ms-transform:rotate(-10deg);
+	transform:rotate(-10deg);
+}
+
+.reward-photo2 {
+	border: 20px solid #d4d4d4;
+	width: auto;
+	height: 300px;
+	margin-top: -150px;
+    margin-left: 100px;
+    -moz-transform:rotate(10deg);
+	-webkit-transform:rotate(10deg);
+	-o-transform:rotate(10deg);
+	-ms-transform:rotate(10deg);
+	transform:rotate(10deg);
+}
+
+@media (max-width: 480px) {
+
+	.reward-photo2 {
+		 margin-left: 0px;
+	}
+}
+
 
 
